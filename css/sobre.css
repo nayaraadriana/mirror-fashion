@@ -1,3 +1,4 @@
+
 body{
     color: #333333;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'sans-serif';
@@ -6,10 +7,26 @@ body{
     width: 940px;
 }
 
+h1{
+    background-image: url(../img/sobre-background.jpg);
+    padding: 10px 0 10px 10px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
 h2{
     border-bottom: 2px solid #333333;
     margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+
 }
+
 figure{
     border: 1px solid #ccc;
     background-color: #f2eded;
@@ -21,16 +38,25 @@ figcaption{
     font-style: italic;
     padding: 10px;
 }
+
 p{
     padding: 0 45px;
     text-indent: 15px;
     text-align: left;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 16px;
+    line-height: 24px;
 }
 
 #centro-distribuicao{
     margin-left: auto;
     margin-right: auto;
     width: 550px;
+}
+
+
+.lista-simples{
+    margin-bottom: 0px;
 }
 
 footer{
@@ -48,33 +74,4 @@ footer img{
     margin: 0 0 10px 10px;
     float: right;
 }
-.sacola{
-    background-image: url(../img/sacola.png);
-    background-repeat: no-repeat;
-    background-position: top right;
-    font-size: 14px;
-    text-align: right;
-    width: 140px;
-    padding-right: 35px;
-    padding-top: 8px;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
 
-.menu-opcoes{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-
-}
-
-
-.menu-opcoes ul {
-    font-size: 15px;
-    }
-
-.menu-opcoes a {
-    color: 003366;
-
-}
