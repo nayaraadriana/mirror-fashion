@@ -1,5 +1,11 @@
 header{
     position: relative;
+    
+}
+
+.container {
+    margin: 0 auto;
+    width: 940px;
 }
 
 .sacola{
@@ -25,26 +31,19 @@ header{
 
 }
 
-.container {
-    margin: 0 auto;
-    width: 940px;
-  }
-
 .menu-opcoes ul {
     font-size: 15px;
-    }
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: right;
+}
+
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px; 
+      
+}
 
 .menu-opcoes a {
     color: 003366;
 
-}
-ul{
-    float: right;
-}
-
-ul li {
-    display: inline;
-    margin-left: 20px; 
-    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   
 }
