@@ -28,8 +28,9 @@ header{
     position: relative;
     bottom: 0;
     right: 0;
-
+    
 }
+
 
 .menu-opcoes ul {
     font-size: 15px;
@@ -44,6 +45,7 @@ header{
 }
 
 .menu-opcoes a {
-    color: 003366;
+    color: #003366;
+    
 
 }
