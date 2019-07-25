@@ -62,3 +62,25 @@
     
 }
 
+.menu-departamentos li ul{
+    display: none;
+}
+
+.menu-departamentos li:hover ul{
+    display: block;
+}
+
+.menu-departamentos ul ul li{
+    background-color: #dcdcdc;
+}
+
+.menu-departamentos li li a::before{
+    content: '\272A';
+   padding-right: 5px;
+}
+
+.painel h2::before {
+    content: '\2756';
+    padding-right: 5px;
+    opacity: 0.4;
+  }

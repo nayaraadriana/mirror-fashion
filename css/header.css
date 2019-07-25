@@ -1,6 +1,7 @@
 header{
     position: relative;
     
+    
 }
 
 .container {
@@ -49,3 +50,11 @@ header{
     
 
 }
+
+.menu-opcoes a:hover {
+    color: #007dc6;
+  }
+ 
+  .menu-opcoes a:active {
+    color: #867dc6;
+  }

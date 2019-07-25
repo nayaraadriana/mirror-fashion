@@ -1,0 +1,14 @@
+.container {
+    position: relative;
+  }
+  
+  #image {
+    position: absolute;
+  }
+  
+ #texto{
+     position: absolute;
+     font-size: 32px;
+     top: 140px;
+     left: 150px;
+ }
